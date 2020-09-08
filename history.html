@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="The best website ever" />
+    <meta name="keywords" content="HTML,CSS,JavaScript" />
+    <meta name="author" content="John Doe" />
+    <title>Povijest narudžbi</title>
+
+    <!-- Povezivanje sa željenim Google Font-om -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Mali&display=swap"
+    />
+
+    <!-- Za korištenje FontAwesome ikona -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+
+    <!-- Povezivanje vanjskih CSS dokumenata s HTML-om -->
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/history.css" />
+  </head>
+
+  <body>
+    <!-- Header/Zaglavlje: Logo, glavni naslov i navigacija-->
+    <header>
+      <div class="container grid-wrapper">
+        <h2>Pizza Bar</h2>
+        <nav>
+          <a class="link" href="./">Početna</a>
+          <a class="link" href="./#pizze">Pizze</a>
+          <a class="link" href="./#cjenik">Cjenik</a>
+          <a class="link" href="./#kontakt">Kontakt</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Povijest narudžbi -->
+      <section>
+        <h2>Povijest narudžbi</h2>
+        <div id="orders" class="container"></div>
+      </section>
+    </main>
+
+    <!-- Footer/Podnožje: Linkovi društvenih mreža i copyright -->
+    <footer>
+      <ul id="social-icons">
+        <li title="Facebook">
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li title="Instagram">
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li title="Email">
+          <a href="mailto:myemail@fesb.hr">
+            <i class="far fa-envelope"></i>
+          </a>
+        </li>
+      </ul>
+      <h4>Pizza Bar</h4>
+      <p>
+        &copy;<em>2019, Sva prava pridržana</em>
+        <br />
+        <strong>Ime Prezime</strong>
+      </p>
+    </footer>
+
+    <!-- Uključivanje vanjske JavaScript skripte -->
+    <script src="./js/history.js"></script>
+  </body>
+</html>
